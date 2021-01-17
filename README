@@ -1,0 +1,26 @@
+Shopify Challenge Question
+
+Technology used:
+Microsoft Visual Studio 2019
+Microsoft SQL Server
+
+Language: C#
+
+What's required: 
+Please execute SQL queries attached to my application called "CredentialsDB". Go to "database.cs" and change the data source to your local database server name and the initial catalog to be the database you ran the SQL queries in.
+
+This image repository is very simple to use:
+1. Create an account
+2. Login
+3. Use the Image Repository
+        Edit Mode will enable the buttons on each image box, allowing you to upload or delete an image
+
+Breakdown:
+Login.cs - checks the text fields for credentials (triggered by login button)
+User.cs - method for credential validations (in progress) 
+NewAccount.cs - reads user input and stores credentials in a table
+Database.cs - connection to database
+
+I am aware that there may be design issues with my program, and that there are areas that need to be improved such as checking to ensure that the stored procedure has ran successfully (in other words an account was created) but due to the limited time, I focused on getting the program up and running and to prove that I have a basic knowledge and idea of how this should be implemented which I feel is what you guys are mainly looking for.
+
+Note: I was going to apply for Front End Developer as well, unfortunatly I just didn't have time to work another project due on the same day. There was alot going on for me this week, but I do have a similar project that requires similar knowledge to implement which can be checked out here: http://tran67.dev.fast.sheridanc.on.ca/Yash
