@@ -7,7 +7,7 @@ Microsoft SQL Server
 Language: C#
 
 What's required: 
-Please execute SQL queries attached to my application called "CredentialsDB". Go to "database.cs" and change the data source to your local database server name and the initial catalog to be the database you ran the SQL queries in.
+Please execute SQL queries attached to my application called "CredentialsDB.sql". Go to "database.cs" and change the data source to your local database server name and the initial catalog to be the database you ran the SQL queries in.
 
 This image repository is very simple to use:
 1. Create an account
