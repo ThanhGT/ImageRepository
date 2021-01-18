@@ -16,4 +16,5 @@ BEGIN
     INSERT INTO UserCreds (username, password) VALUES (@Username, @Password)
 END
 
+-- view all data from table --
 SELECT * FROM UserCreds
